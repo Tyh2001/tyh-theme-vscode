@@ -15,6 +15,8 @@ tyh 专属 vscode 主题
 ├── CHANGELOG.md 更新日志<br />
 └── README.md 说明文件<br />
 
+## 合作者
+
 <div style="display: flex; align-items: center;">
   <img style=" float: left;" height="60px" src="./images/my.jpg">
   <h4 style="display: inline-block;">tyh2001</h4>
