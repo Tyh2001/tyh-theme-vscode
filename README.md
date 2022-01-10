@@ -6,11 +6,11 @@ tyh 专属 vscode 主题
 
 ## 目录
 
-├── demo 案例
-├── images 图片
-├── themes 主题
-│ ├── tyh-theme-bright.json
-│ └── tyh-theme-dark.json
-├── .vscodeignore
-├── CHANGELOG.md 更新日志
-└── README.md 说明文件
+├── demo 案例<br />
+├── images 图片<br />
+├── themes 主题<br />
+│ ├── tyh-theme-bright.json<br />
+│ └── tyh-theme-dark.json<br />
+├── .vscodeignore<br />
+├── CHANGELOG.md 更新日志<br />
+└── README.md 说明文件<br />
