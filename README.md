@@ -1,7 +1,3 @@
-<p align="center">
-  <img style="border-radius: 50%;" height="200px" src="./images/my.jpg">
-</p>
-
 # tyh-exclusive-theme-vscode
 
 tyh 专属 vscode 主题
@@ -18,3 +14,8 @@ tyh 专属 vscode 主题
 ├── .vscodeignore<br />
 ├── CHANGELOG.md 更新日志<br />
 └── README.md 说明文件<br />
+
+<div style="display: flex; align-items: center;">
+  <img style=" float: left;" height="60px" src="./images/my.jpg">
+  <h4 style="display: inline-block;">tyh2001</h4>
+</div>
