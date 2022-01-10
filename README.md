@@ -1,3 +1,7 @@
+<p align="center">
+  <img style="border-radius: 50%;" height="200px" src="./images/my.jpg">
+</p>
+
 # tyh-exclusive-theme-vscode
 
 tyh 专属 vscode 主题
