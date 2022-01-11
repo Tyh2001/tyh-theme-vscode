@@ -28,6 +28,8 @@ function version () {
   return `当前版本是：${tyhUi.version}`
 }
 
+// version()
+
 class Tyh { }
 
 class User extends Tyh {
