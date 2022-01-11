@@ -1,31 +1,21 @@
 {
-  "name": "tyh-theme",
-  "version": "1.0.0",
-  "description": "Tyh exclusive vscode theme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tyh2001/tyh-exclusive-theme-vscode.git"
-  },
-  "keywords": [
-    "tyh",
-    "theme",
-    "github",
-    "light",
-    "dark",
-    "protanopia",
-    "colorblind"
-  ],
-  "author": {
-    "name": "tyh2001",
-    "url": "https://tianyuhao.cn/blog"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tyh2001/tyh-exclusive-theme-vscode/issues"
-  },
-  "homepage": "https://github.com/Tyh2001/tyh-exclusive-theme-vscode#readme"
+    "name": "tyh-theme",
+    "displayName": "tyh-theme",
+    "description": "tyh-theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "tyh-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tyh-theme-color-theme.json"
+            }
+        ]
+    }
 }
