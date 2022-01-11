@@ -5,6 +5,10 @@ const components = [
   TyhList
 ]
 
+/**
+ * 
+ * @param {*} app 
+ */
 const install = app => {
   components.forEach(i => {
     app.use(i)
@@ -16,6 +20,10 @@ const tyhUi = {
   install
 }
 
+/**
+ * 
+ * @returns 
+ */
 function version () {
   return `当前版本是：${tyhUi.version}`
 }
