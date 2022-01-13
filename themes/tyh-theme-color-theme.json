@@ -248,18 +248,16 @@
       "name": "CSS class选择器",
       "scope": "entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#ee38ff"
+        "foreground": "#7cd131"
       }
     },
-    // ID选择器
     {
       "name": "CSS ID选择器",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#f5e948"
+        "foreground": "#ff7010"
       }
     },
-    // 标签选择器
     {
       "name": "CSS 标签选择器",
       "scope": "source.css entity.name.tag",
@@ -267,7 +265,6 @@
         "foreground": "#61a9ff"
       }
     },
-    // 属性名
     {
       "name": "CSS 属性名",
       "scope": "support.type.property-name.css",
