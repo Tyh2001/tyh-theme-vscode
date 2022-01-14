@@ -266,6 +266,31 @@
         "foreground": "#ec540e"
       }
     },
+    {
+      "name": "JavaScript 关键字 await return",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "JavaScript 关键字 async",
+      "scope": "storage",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "JavaScript 模板字符串中的 ${}",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
     // JSON
     {
       "name": "JSON 一级的属性名",
