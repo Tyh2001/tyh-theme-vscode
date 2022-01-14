@@ -191,7 +191,7 @@
       "name": "JavaScript 函数名",
       "scope": "meta.function entity.name.function",
       "settings": {
-        "foreground": "#7cd131"
+        "foreground": "#7fda31"
       }
     },
     {
@@ -202,7 +202,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#bdc6cd"
+        "foreground": "#c0c9cf"
       }
     },
     {
@@ -210,7 +210,7 @@
       "scope": "storage.type",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f993f3"
+        "foreground": "#fb7cf3"
       }
     },
     {
@@ -238,7 +238,6 @@
       "name": "JavaScript 变量名",
       "scope": "variable",
       "settings": {
-        "fontStyle": "",
         "foreground": "#ffffff"
       }
     },
@@ -263,22 +262,21 @@
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ec540e"
+        "foreground": "#0eecec"
       }
     },
     {
       "name": "JavaScript 关键字 await return",
       "scope": "keyword",
       "settings": {
-        "foreground": "#F92672"
+        "foreground": "#f01439"
       }
     },
     {
       "name": "JavaScript 关键字 async",
       "scope": "storage",
       "settings": {
-        "fontStyle": "",
-        "foreground": "#F92672"
+        "foreground": "#f01439"
       }
     },
     {
@@ -288,7 +286,14 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#F92672"
+        "foreground": "#f01439"
+      }
+    },
+    {
+      "name": "JavaScript this 关键字",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#0eecec"
       }
     },
     // JSON
