@@ -138,7 +138,6 @@
       }
     },
     // js部分
-    // 字符串
     {
       "name": "JavaScript 和 HTML 字符串",
       "scope": "string",
@@ -146,7 +145,6 @@
         "foreground": "#efb946"
       }
     },
-    // 标点符号
     {
       "name": "JavaScript 和 HTML 标点符号",
       "scope": "punctuation",
@@ -154,7 +152,6 @@
         "foreground": "#ffffff"
       }
     },
-    // 布尔值
     {
       "name": "JavaScript 布尔值",
       "scope": "constant.language.boolean",
@@ -162,7 +159,6 @@
         "foreground": "#9cfff2"
       }
     },
-    // 数字
     {
       "name": "JavaScript 数字",
       "scope": "constant.numeric",
@@ -170,7 +166,6 @@
         "foreground": "#5885ff"
       }
     },
-    // 变量名
     {
       "name": "JavaScript 变量名",
       "scope": "variable",
@@ -178,7 +173,6 @@
         "foreground": "#ffffff"
       }
     },
-    // 类名
     {
       "name": "JavaScript class类的名",
       "scope": "entity.name, entity.name.type.class, support.type, support.class, meta.use",
@@ -186,7 +180,6 @@
         "foreground": "#f5e948"
       }
     },
-    // 类方法
     {
       "name": "JavaScript class类的方法",
       "scope": "meta.definition.method entity.name.function",
@@ -194,7 +187,6 @@
         "foreground": "#7cd131"
       }
     },
-    // 函数名
     {
       "name": "JavaScript 函数名",
       "scope": "meta.function entity.name.function",
@@ -202,7 +194,6 @@
         "foreground": "#7cd131"
       }
     },
-    // 注释
     {
       "name": "JavaScript 和 HTML 注释",
       "scope": [
@@ -212,6 +203,67 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#bdc6cd"
+      }
+    },
+    {
+      "name": "JavaScript 关键字 const function",
+      "scope": "storage.type",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f993f3"
+      }
+    },
+    {
+      "name": "JavaScript 关键字 return",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#ff004e"
+      }
+    },
+    {
+      "name": "JavaScript 函数名",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#7cd131"
+      }
+    },
+    {
+      "name": "JavaScript 数字",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#778dff"
+      }
+    },
+    {
+      "name": "JavaScript 变量名",
+      "scope": "variable",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "JavaScript 类名",
+      "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#7cd131"
+      }
+    },
+    {
+      "name": "JavaScript 继承的类名",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "italic underline",
+        "foreground": "#7cd131"
+      }
+    },
+    {
+      "name": "JavaScript 函数参数",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ec540e"
       }
     },
     // JSON
@@ -242,17 +294,23 @@
         "foreground": "#f8cc7b"
       }
     },
-    // CSS
-    // class选择器
     {
-      "name": "CSS class选择器",
+      "name": "JSON 字符串",
+      "scope": "meta.structure.dictionary.json string.quoted.double.json",
+      "settings": {
+        "foreground": "#b0f1db"
+      }
+    },
+    // CSS
+    {
+      "name": "CSS class 选择器",
       "scope": "entity.other.attribute-name.class",
       "settings": {
         "foreground": "#7cd131"
       }
     },
     {
-      "name": "CSS ID选择器",
+      "name": "CSS ID 选择器",
       "scope": "entity.other.attribute-name.id",
       "settings": {
         "foreground": "#ff7010"
@@ -272,121 +330,50 @@
         "foreground": "#7cd131"
       }
     },
-    // 
-    // 
-    // 
-    // 
-    // 
-    // 关键字 const function
-    {
-      "name": "Storage type",
-      "scope": "storage.type",
-      "settings": {
-        "fontStyle": "italic", // 斜体
-        "foreground": "#f993f3"
-      }
-    },
-    // 关键字 return
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#ff004e"
-      }
-    },
-    // JSON 字符串
-    {
-      "name": "JSON String", // json 字符串
-      "scope": "meta.structure.dictionary.json string.quoted.double.json",
-      "settings": {
-        "foreground": "#b0f1db"
-      }
-    },
-    // 函数名
-    {
-      "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#7cd131"
-      }
-    },
-    // 数字
-    {
-      "name": "Number",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#778dff"
-      }
-    },
-    // 变量名
-    {
-      "name": "Variable",
-      "scope": "variable",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#ffffff"
-      }
-    },
-    // 类名
-    {
-      "name": "Class name",
-      "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
-      "settings": {
-        "fontStyle": "underline",
-        "foreground": "#7cd131"
-      }
-    },
-    // 继承的类名
-    {
-      "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "fontStyle": "italic underline",
-        "foreground": "#7cd131"
-      }
-    },
-    // 函数参数
-    {
-      "name": "Function argument",
-      "scope": "variable.parameter",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#70d32e"
-      }
-    },
     // Markdown
-    // 链接 - []
     {
-      "name": "Markdown Link Title/Description",
+      "name": "Markdown 链接 - []",
       "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
         "foreground": "#4d79da"
       }
     },
-    // 引用 - >
     {
-      "name": "Markdown Quote",
+      "name": "Markdown 引用 - >",
       "scope": "markup.quote.markdown",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#c68fce"
       }
     },
-    // 重点 - ****
     {
-      "name": "Markdown Bold",
+      "name": "Markdown 重点 - ****",
       "scope": "markup.bold.markdown",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#b551f0"
       }
     },
-    // 地址 - ()
     {
-      "name": "Markdown Underline Link/Image",
+      "name": "Markdown 地址 - ()",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
         "foreground": "#b0f1db"
+      }
+    },
+    {
+      "name": "Markup 标题",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "Markup 标题符号 #",
+      "scope": "markup.heading.setext",
+      "settings": {
+        "foreground": "#A6E22E",
+        "fontStyle": "bold"
       }
     },
   ]
