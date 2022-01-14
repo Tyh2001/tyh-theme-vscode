@@ -1,9 +1,5 @@
-# Change Log
+# 更新日志
 
-All notable changes to the "tyh-theme" extension will be documented in this file.
+## 0.1.0-bate.1 (2022-01-14)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 测试发布上线

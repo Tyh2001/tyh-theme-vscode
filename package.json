@@ -1,21 +1,21 @@
 {
-    "name": "tyh-theme",
-    "displayName": "tyh-theme",
-    "description": "tyh-theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "tyh-theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/tyh-theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "tyh-theme",
+  "displayName": "tyh-theme",
+  "description": "tyh-theme",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "tyh-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tyh-theme-color-theme.json"
+      }
+    ]
+  }
 }
