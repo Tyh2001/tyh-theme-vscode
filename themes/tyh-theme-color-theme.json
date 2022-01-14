@@ -202,7 +202,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c0c9cf"
+        "foreground": "#8d9397"
       }
     },
     {
@@ -211,13 +211,6 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#fb7cf3"
-      }
-    },
-    {
-      "name": "JavaScript 关键字 return",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#ff004e"
       }
     },
     {
@@ -269,14 +262,14 @@
       "name": "JavaScript 关键字 await return",
       "scope": "keyword",
       "settings": {
-        "foreground": "#f01439"
+        "foreground": "#ff004e"
       }
     },
     {
       "name": "JavaScript 关键字 async",
       "scope": "storage",
       "settings": {
-        "foreground": "#f01439"
+        "foreground": "#ff004e"
       }
     },
     {
@@ -286,7 +279,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#f01439"
+        "foreground": "#ff004e"
       }
     },
     {
