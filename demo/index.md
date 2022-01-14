@@ -94,3 +94,7 @@ obj2.say()
 视频教程地址：[super 原理分析](https://www.bilibili.com/video/BV1NJ411W7wh?p=246)
 
 > 在父类的构造函数中必须调用 super()，并且 this 必须在 super 之后使用
+
+
+## ada
+# ada

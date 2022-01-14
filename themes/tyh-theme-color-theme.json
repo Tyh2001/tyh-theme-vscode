@@ -3,9 +3,9 @@
   "type": "dark",
   "colors": {
     "tab.inactiveBackground": "#393939", // 未选中的选项卡
-    "tab.border": "#1e1f1c",
-    "tab.inactiveForeground": "#ccccc7",
-    "tab.lastPinnedBorder": "#414339",
+    "tab.border": "#1e1f1c", // 用于将选项卡彼此分隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
+    "tab.inactiveForeground": "#ccccc7", // 活动组中非活动选项卡的前景色。在编辑器区域，选项卡是编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
+    "tab.lastPinnedBorder": "#414339", // 用于将固定的选项卡与其他选项卡隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
     "tab.activeBorder": "#2186ee", //活动选项卡底部的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
     "tab.activeBackground": "#2c2c2c", // 选中的背景色
     "tab.activeForeground": "#e7e2e2", // 关闭按钮颜色
