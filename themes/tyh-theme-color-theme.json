@@ -2,26 +2,31 @@
   "name": "tyh-theme",
   "type": "dark",
   "colors": {
+    "tab.inactiveBackground": "#393939", // 未选中的选项卡
+    "tab.border": "#1e1f1c",
+    "tab.inactiveForeground": "#ccccc7",
+    "tab.lastPinnedBorder": "#414339",
+    "tab.activeBorder": "#2186ee", //活动选项卡底部的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
+    "tab.activeBackground": "#2c2c2c", // 选中的背景色
+    "tab.activeForeground": "#e7e2e2", // 关闭按钮颜色
+    "tab.unfocusedHoverBackground": "#2c2c2c", // 鼠标移入后的背景色
     "editor.background": "#2c2c2c", // 编辑器背景色
     "editor.foreground": "#eeffff", // 编辑器默认前景色
-    "sideBarTitle.foreground": "#add5fe", // 侧边栏标题前景色。侧边栏是资源管理器和搜索等视图的容器
-    "button.background": "#2186ee", // 按钮背景色 设置界面有按钮
-    "editorCursor.foreground": "#e0f7f4", // 编辑器光标颜色
-    "menu.background": "#202020", // 点击右下角设置按钮菜单项的背景颜色
-    "menu.foreground": "#eaeff3", // 点击右下角设置按钮菜单项的前景颜色
-    "activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
-    "sideBar.background": "#1b1b1b", // 侧边栏背景色。侧边栏是资源管理器和搜索等视图的容器。
     "editor.lineHighlightBackground": "#494545", // 光标所在行高亮内容的背景颜色。
-    "editorLineNumber.activeForeground": "#2186ee", // 编辑器活动行号的颜色
-    "editorLineNumber.foreground": "#f6f6f0", // 编辑器行号的颜色。
     "panelTitle.activeForeground": "#eaeff3", // 活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
     "panelTitle.activeBorder": "#2186ee", // 活动面板标题的边框颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
     "panelTitle.inactiveForeground": "#ababab", // 非活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
+    "menu.background": "#202020", // 点击右下角设置按钮菜单项的背景颜色
+    "menu.foreground": "#eaeff3", // 点击右下角设置按钮菜单项的前景颜色
+    "sideBarTitle.foreground": "#add5fe", // 侧边栏标题前景色。侧边栏是资源管理器和搜索等视图的容器
+    "button.background": "#2186ee", // 按钮背景色 设置界面有按钮
+    "editorCursor.foreground": "#e0f7f4", // 编辑器光标颜色
+    "activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "sideBar.background": "#1b1b1b", // 侧边栏背景色。侧边栏是资源管理器和搜索等视图的容器。
+    "editorLineNumber.activeForeground": "#2186ee", // 编辑器活动行号的颜色
+    "editorLineNumber.foreground": "#f6f6f0", // 编辑器行号的颜色。
     "editorIndentGuide.background": "#464741", // 编辑器缩进参考线的颜色。
-    // "tab.inactiveBackground": "#34352f", // 非活动选项卡的背景色。在编辑器区域，选项卡是编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
-    // "tab.border": "#353535", // 用于将选项卡彼此分隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
-    // "tab.inactiveForeground": "#ccccc7", // 活动组中非活动选项卡的前景色。在编辑器区域，选项卡是编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
-    // "tab.lastPinnedBorder": "#2186ee", // 用于将固定的选项卡与其他选项卡隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
+    "editorGroup.border": "#c3c3c3",
     // "editorGroup.border": "#2186ee", // 将多个编辑器组彼此分隔开的颜色。编辑器组是编辑器的容器。
     // "activityBarBadge.background": "#007acc", // 活动通知徽章背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
     // "dropdown.listBackground": "#ee2121", // 下拉列表背景色。
