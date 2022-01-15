@@ -20,6 +20,10 @@ For developers, having a comfortable theme and code color may make you feel very
 
 # light-theme
 
+<img width="100%" src="./images/tyh-theme-light-html.png">
+<img width="100%" src="./images/tyh-theme-light-css.png">
+<img width="100%" src="./images/tyh-theme-light-js.png">
+
 # Installation
 
 1. install [Visual Studio Code](https://code.visualstudio.com)

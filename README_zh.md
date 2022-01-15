@@ -20,6 +20,10 @@ tyh-theme 是由 tyh2001 独立开发的一款可以令人舒适的 vscode 主�
 
 # 明亮主题
 
+<img width="100%" src="./images/tyh-theme-light-html.png">
+<img width="100%" src="./images/tyh-theme-light-css.png">
+<img width="100%" src="./images/tyh-theme-light-js.png">
+
 # 安装
 
 1. 安装 [Visual Studio Code](https://code.visualstudio.com)

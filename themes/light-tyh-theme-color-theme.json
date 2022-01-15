@@ -2,144 +2,99 @@
   "name": "tyh-theme-light",
   "type": "light",
   "colors": {
-    "tab.inactiveBackground": "#393939", // 未选中的选项卡
-    "tab.border": "#1e1f1c", // 用于将选项卡彼此分隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
-    "tab.inactiveForeground": "#ccccc7", // 活动组中非活动选项卡的前景色。在编辑器区域，选项卡是编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
-    "tab.lastPinnedBorder": "#414339", // 用于将固定的选项卡与其他选项卡隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
-    "tab.activeBorder": "#2186ee", //活动选项卡底部的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
-    "tab.activeBackground": "#2c2c2c", // 选中的背景色
-    "tab.activeForeground": "#e7e2e2", // 关闭按钮颜色
-    "tab.unfocusedHoverBackground": "#2c2c2c", // 鼠标移入后的背景色
-    "editor.background": "#2c2c2c", // 编辑器背景色
-    "editor.foreground": "#eeffff", // 编辑器默认前景色
-    "editor.lineHighlightBackground": "#494545", // 光标所在行高亮内容的背景颜色。
-    "panelTitle.activeForeground": "#eaeff3", // 活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
-    "panelTitle.activeBorder": "#2186ee", // 活动面板标题的边框颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
-    "panelTitle.inactiveForeground": "#ababab", // 非活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
-    "menu.background": "#202020", // 点击右下角设置按钮菜单项的背景颜色
-    "menu.foreground": "#eaeff3", // 点击右下角设置按钮菜单项的前景颜色
-    "sideBarTitle.foreground": "#add5fe", // 侧边栏标题前景色。侧边栏是资源管理器和搜索等视图的容器
-    "button.background": "#2186ee", // 按钮背景色 设置界面有按钮
-    "editorCursor.foreground": "#e0f7f4", // 编辑器光标颜色
+    "editor.background": "#ffffff", // 编辑器背景色
     "activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
-    "sideBar.background": "#1b1b1b", // 侧边栏背景色。侧边栏是资源管理器和搜索等视图的容器。
-    "editorLineNumber.activeForeground": "#2186ee", // 编辑器活动行号的颜色
-    "editorLineNumber.foreground": "#f6f6f0", // 编辑器行号的颜色。
-    "editorIndentGuide.background": "#464741", // 编辑器缩进参考线的颜色。
-    "editorGroup.border": "#c3c3c3",
-    // "editorGroup.border": "#2186ee", // 将多个编辑器组彼此分隔开的颜色。编辑器组是编辑器的容器。
-    // "activityBarBadge.background": "#007acc", // 活动通知徽章背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
-    // "dropdown.listBackground": "#ee2121", // 下拉列表背景色。
+    "titleBar.activeBackground": "#ffffff",
+    "tab.activeBackground": "#ffffff", // 选中的背景色
+    "tab.inactiveBackground": "#eeeeee", // 未选中的选项卡
+    "tab.activeForeground": "#2c2c2c", // 关闭按钮颜色
+    "tab.unfocusedHoverBackground": "#ffffff", // 鼠标移入后的背景色
     // 
     // 
     // 
-    // -------------------------------------分割线-------------------------------------
-    // 
-    // 
-    // 
-    "list.activeSelectionBackground": "#75715E", // 已选项在列表或树活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
-    "quickInputList.focusBackground": "#414339", // 焦点项目的快速选择器背景色
-    "list.inactiveSelectionBackground": "#414339", // 已选项在列表或树非活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
-    "list.hoverBackground": "#3e3d32", // 使用鼠标移动项目时，列表或树的背景颜色。
-    "list.dropBackground": "#414339", // 使用鼠标移动项目时，列表或树进行拖放的背景颜色。
-    "list.highlightForeground": "#f8f8f2", // 在列表或树中搜索时，其中匹配内容的高亮颜色
-    "selection.background": "#878b9180", //工作台所选文本的背景颜色(例如输入字段或文本区域)。注意，本设置不适用于编辑器。
-    "editor.selectionHighlightBackground": "#575b6180", // 具有与所选项相关内容的区域的颜色。颜色必须透明，以免隐藏下面的修饰效果。
-    "editor.wordHighlightBackground": "#4a4a7680", // 读取访问期间符号的背景色，例如读取变量时。颜色必须透明，以免隐藏下面的修饰效果。
-    "editor.wordHighlightStrongBackground": "#6a6a9680", // 写入访问过程中符号的背景色，例如写入变量时。颜色必须透明，以免隐藏下面的修饰效果。
-    "editorWhitespace.foreground": "#464741", // 编辑器中空白字符的颜色
-    "editorIndentGuide.activeBackground": "#767771", // 编辑器活动缩进参考线的颜色。
-    "editorGroupHeader.tabsBackground": "#1e1f1c", // 启用选项卡时编辑器组标题的背景颜色。编辑器组是编辑器的容器。
-    "editorGroup.dropBackground": "#41433980", // 拖动编辑器时的背景颜色。此颜色应有透明度，以便编辑器内容能透过背景。
-    "widget.shadow": "#00000098", // 编辑器内小组件(如查找/替换)的阴影颜色
-    "progressBar.background": "#75715E", // 表示长时间操作的进度条的背景色。
-    "badge.background": "#75715E", // Badge 背景色。Badge 是小型的信息标签，如表示搜索结果数量的标签。
-    "badge.foreground": "#f8f8f2", // Badge 前景色。Badge 是小型的信息标签，如表示搜索结果数量的标签。
-    "panel.border": "#414339", // 将面板与编辑器隔开的边框的颜色。面板显示在编辑区域下方，包含输出和集成终端等视图。
-    "settings.focusedRowBackground": "#4143395A", // 聚焦时设置行的背景色。
-    "titleBar.activeBackground": "#1e1f1c", // 窗口处于活动状态时的标题栏背景色。
-    "statusBar.background": "#414339", // 工作区或文件夹打开时状态栏的背景色。状态栏显示在窗口底部。
-    "statusBar.noFolderBackground": "#414339", // 没有打开文件夹时状态栏的背景色。状态栏显示在窗口底部。
-    "statusBar.debuggingBackground": "#75715E", // 调试程序时状态栏的背景色。状态栏显示在窗口底部
-    "statusBarItem.remoteBackground": "#AC6218", // 状态栏上远程指示器的背景色。
-    "ports.iconRunningProcessForeground": "#ccccc7", // 具有关联的正在运行的进程的端口图标颜色。
-    "activityBar.foreground": "#f8f8f2", // 活动栏项在活动时的前景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
-    "sideBarSectionHeader.background": "#272822", // 侧边栏部分标题背景色。此侧边栏是资源管理器和搜索等视图的容器。侧边栏部分是在侧边栏中嵌套的视图。
-    "pickerGroup.foreground": "#75715E", // 快速选取器分组标签的颜色。
-    "input.background": "#414339", // 输入框背景色。
-    "inputOption.activeBorder": "#75715E", // 输入字段中已激活选项的边框颜色。
-    "focusBorder": "#75715E", // 焦点元素的整体边框颜色。此颜色仅在不被其他组件覆盖时适用。
-    "editorWidget.background": "#1e1f1c", // 编辑器组件(如查找/替换)背景颜色。
-    "debugToolBar.background": "#1e1f1c", // 调试工具栏背景颜色。
-    "diffEditor.insertedTextBackground": "#4b661680", // 已插入的文本的背景色。颜色必须透明，以免隐藏下面的修饰效果。
-    "diffEditor.removedTextBackground": "#90274A70", // 已删除的文本的背景色。颜色必须透明，以免隐藏下面的修饰效果。
-    "inputValidation.errorBackground": "#90274A", // 输入验证结果为错误级别时的背景色
-    "inputValidation.errorBorder": "#f92672", // 严重性为错误时输入验证的边框颜色。
-    "inputValidation.warningBackground": "#848528", // 严重性为警告时输入验证的背景色。
-    "inputValidation.warningBorder": "#e2e22e", // 严重性为警告时输入验证的边框颜色。
-    "inputValidation.infoBackground": "#546190", // 输入验证结果为信息级别时的背景色。
-    "inputValidation.infoBorder": "#819aff", // 严重性为信息时输入验证的边框颜色。
-    "editorHoverWidget.background": "#414339", // 编辑器悬停提示的背景颜色
-    "editorHoverWidget.border": "#75715E", // 光标悬停时编辑器的边框颜色。
-    "editorSuggestWidget.background": "#272822", // 建议小组件的背景色。
-    "editorSuggestWidget.border": "#75715E", // 建议小组件的边框颜色。
-    "peekView.border": "#75715E", // 速览视图边框和箭头颜色。
-    "peekViewEditor.background": "#272822", // 速览视图编辑器背景色。
-    "peekViewResult.background": "#1e1f1c", // 速览视图结果列表背景色。
-    "peekViewTitle.background": "#1e1f1c", // 速览视图标题区域背景颜色。
-    "peekViewResult.selectionBackground": "#414339", // 速览视图结果列表中所选条目的背景色。
-    "peekViewResult.matchHighlightBackground": "#75715E", // 在速览视图结果列表中匹配突出显示颜色。
-    "peekViewEditor.matchHighlightBackground": "#75715E", // 在速览视图编辑器中匹配突出显示颜色。
-    // 终端 配色
-    "terminal.ansiBlack": "#333333", // 终端中的 ANSI 颜色“Black”。
-    "terminal.ansiRed": "#d10f1b", // 终端中的 ANSI 颜色“Red”。
-    "terminal.ansiGreen": "#54c600", // 终端中的 ANSI 颜色“Green”。
-    "terminal.ansiYellow": "#fbcc30", // 终端中的 ANSI 颜色“Yellow”。
-    "terminal.ansiBlue": "#3a6ff4", // 终端中的 ANSI 颜色“Blue”。
-    "terminal.ansiMagenta": "#8C6BC8", // 终端中的 ANSI 颜色“Magenta”。
-    "terminal.ansiCyan": "#56ADBC", // 终端中的 ANSI 颜色“Cyan”。
-    "terminal.ansiWhite": "#e3e3dd", // 终端中的 ANSI 颜色“White”。
-    "terminal.ansiBrightBlack": "#666666", // 终端中的 ANSI 颜色“BrightBlack”。
-    "terminal.ansiBrightRed": "#f92672", // 终端中的 ANSI 颜色“BrightRed”。
-    "terminal.ansiBrightGreen": "#A6E22E", // 终端中的 ANSI 颜色“BrightGreen”。
-    "terminal.ansiBrightYellow": "#e2e22e", // 终端中的 ANSI 颜色“BrightYellow”。
-    "terminal.ansiBrightBlue": "#819aff", // 终端中的 ANSI 颜色“BrightBlue”。
-    "terminal.ansiBrightMagenta": "#AE81FF", // 终端中的 ANSI 颜色“BrightMagenta”。
-    "terminal.ansiBrightCyan": "#66D9EF", // 终端中的 ANSI 颜色“BrightCyan”。
-    "terminal.ansiBrightWhite": "#f8f8f2" // 终端中的 ANSI 颜色“BrightWhite”。
-    // "editor.selectionBackground": "#878b9180", // 编辑器所选内容的颜色。
-    // "minimap.selectionHighlight": "#878b9180", // 编辑器选区在迷你地图中对应的标记颜色。
+    "focusBorder": "#A6B39B",
+    "pickerGroup.foreground": "#A6B39B",
+    "pickerGroup.border": "#749351",
+    "list.activeSelectionForeground": "#6c6c6c",
+    "quickInputList.focusBackground": "#CADEB9",
+    "list.hoverBackground": "#e0e0e0",
+    "list.activeSelectionBackground": "#c4d9b1",
+    "list.inactiveSelectionBackground": "#d3dbcd",
+    "list.highlightForeground": "#9769dc",
+    "selection.background": "#C9D0D9",
+    // "editor.background": "#F5F5F5",
+    "editorWhitespace.foreground": "#AAAAAA",
+    "editor.lineHighlightBackground": "#E4F6D4",
+    "editorLineNumber.activeForeground": "#9769dc",
+    "editor.selectionBackground": "#C9D0D9",
+    "minimap.selectionHighlight": "#C9D0D9",
+    "panel.background": "#F5F5F5",
+    "sideBar.background": "#F2F2F2",
+    "sideBarSectionHeader.background": "#ede8ef",
+    "editorLineNumber.foreground": "#6D705B",
+    "editorCursor.foreground": "#54494B",
+    "inputOption.activeBorder": "#adafb7",
+    "dropdown.background": "#F5F5F5",
+    "editor.findMatchBackground": "#BF9CAC",
+    "editor.findMatchHighlightBackground": "#edc9d8",
+    "peekViewEditor.matchHighlightBackground": "#C2DFE3",
+    "peekViewTitle.background": "#F2F8FC",
+    "peekViewEditor.background": "#F2F8FC",
+    "peekViewResult.background": "#F2F8FC",
+    "peekView.border": "#705697",
+    "peekViewResult.matchHighlightBackground": "#93C6D6",
+    "tab.lastPinnedBorder": "#c9d0d9",
+    "statusBar.background": "#705697",
+    "welcomePage.tileBackground": "#f0f0f7",
+    "statusBar.noFolderBackground": "#705697",
+    "statusBar.debuggingBackground": "#705697",
+    "statusBarItem.remoteBackground": "#4e3c69",
+    "ports.iconRunningProcessForeground": "#749351",
+    // 下面两个是侧边栏的颜色和hover配置
+    // "activityBar.foreground": "#705697",
+    // "activityBarBadge.background": "#705697",
+    "button.background": "#705697",
+    "editorGroup.dropBackground": "#C9D0D988",
+    "inputValidation.infoBorder": "#4ec1e5",
+    "inputValidation.infoBackground": "#f2fcff",
+    "inputValidation.warningBackground": "#fffee2",
+    "inputValidation.warningBorder": "#ffe055",
+    "inputValidation.errorBackground": "#ffeaea",
+    "inputValidation.errorBorder": "#f1897f",
+    "errorForeground": "#f1897f",
+    "badge.background": "#705697AA",
+    "progressBar.background": "#705697",
+    "walkThrough.embeddedEditorBackground": "#00000014",
+    "editorIndentGuide.background": "#aaaaaa60",
+    "editorIndentGuide.activeBackground": "#777777b0"
   },
   "tokenColors": [
-    // {
-    //   "name": "全局设置",
-    //   "settings": {
-    //     "foreground": "#91db07"
-    //   }
-    // },
+    {
+      "name": "全局设置",
+      "settings": {
+        "foreground": "#333333"
+      }
+    },
     // HTML部分
-    // 标签的尖括号
     {
       "name": "HTML 标签的尖括号",
       "scope": "meta.tag, punctuation.definition.tag",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#a8a8a8"
       }
     },
-    // 标签名
     {
       "name": "HTML 标签名",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#61a9ff"
+        "foreground": "#0063dd"
       }
     },
-    // 标签属性名
     {
       "name": "HTML 标签属性名",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#2ee2a5"
+        "foreground": "#05d18d"
       }
     },
     // js部分
@@ -147,21 +102,21 @@
       "name": "JavaScript 和 HTML 字符串",
       "scope": "string",
       "settings": {
-        "foreground": "#efb946"
+        "foreground": "#d49204"
       }
     },
     {
       "name": "JavaScript 和 HTML 标点符号",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#333333"
       }
     },
     {
       "name": "JavaScript 布尔值",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#9cfff2"
+        "foreground": "#00d3b7"
       }
     },
     {
@@ -175,28 +130,21 @@
       "name": "JavaScript 变量名",
       "scope": "variable",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#333333"
       }
     },
     {
-      "name": "JavaScript class类的名",
+      "name": "JavaScript 方法的名 querySelector",
       "scope": "entity.name, entity.name.type.class, support.type, support.class, meta.use",
       "settings": {
-        "foreground": "#f5e948"
+        "foreground": "#0703eb"
       }
     },
     {
       "name": "JavaScript class类的方法",
       "scope": "meta.definition.method entity.name.function",
       "settings": {
-        "foreground": "#7cd131"
-      }
-    },
-    {
-      "name": "JavaScript 函数名",
-      "scope": "meta.function entity.name.function",
-      "settings": {
-        "foreground": "#7fda31"
+        "foreground": "#62d300"
       }
     },
     {
@@ -207,7 +155,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#8d9397"
+        "foreground": "#adb5b6"
       }
     },
     {
@@ -215,14 +163,7 @@
       "scope": "storage.type",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#fb7cf3"
-      }
-    },
-    {
-      "name": "JavaScript 函数名",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#7cd131"
+        "foreground": "#f001f8"
       }
     },
     {
@@ -236,7 +177,7 @@
       "name": "JavaScript 变量名",
       "scope": "variable",
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#333333"
       }
     },
     {
@@ -260,21 +201,21 @@
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#0eecec"
+        "foreground": "#00cece"
       }
     },
     {
       "name": "JavaScript 关键字 await return",
       "scope": "keyword",
       "settings": {
-        "foreground": "#ff004e"
+        "foreground": "#e70448"
       }
     },
     {
       "name": "JavaScript 关键字 async",
       "scope": "storage",
       "settings": {
-        "foreground": "#ff004e"
+        "foreground": "#e70448"
       }
     },
     {
@@ -284,14 +225,21 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#ff004e"
+        "foreground": "#e70448"
       }
     },
     {
       "name": "JavaScript this 关键字",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#0eecec"
+        "foreground": "#06c5c5"
+      }
+    },
+    {
+      "name": "JavaScript 函数名",
+      "scope": "meta.function entity.name.function",
+      "settings": {
+        "foreground": "#61cc04"
       }
     },
     // JSON
@@ -310,23 +258,14 @@
         "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f8cc7b"
-      }
-    },
-    {
-      "name": "JSON 的属性值",
-      "scope": [
-        "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#f8cc7b"
+        "foreground": "#e79b0e"
       }
     },
     {
       "name": "JSON 字符串",
       "scope": "meta.structure.dictionary.json string.quoted.double.json",
       "settings": {
-        "foreground": "#b0f1db"
+        "foreground": "#038b5e"
       }
     },
     // CSS
@@ -404,5 +343,5 @@
         "fontStyle": "bold"
       }
     },
-  ]
+  ],
 }
