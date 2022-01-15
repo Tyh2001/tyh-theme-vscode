@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-   English | Chinese
+   English | <a href="https://github.com/Tyh2001/tyh-theme-vscode/blob/master/README_zh.md">Chinese</a>
 </p>
 
 # tyh-theme
