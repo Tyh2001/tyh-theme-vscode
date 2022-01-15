@@ -1,7 +1,7 @@
 {
   "name": "tyh-theme",
   "displayName": "tyh-theme",
-  "description": "Visually comfortable vsoce theme, built-in dark and light themes",
+  "description": "Tyh theme is a visually comfortable vscode theme with built-in dark and light themes",
   "version": "0.2.0",
   "engines": {
     "vscode": "^1.63.0"
@@ -10,17 +10,39 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
   "publisher": "tyh-theme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tyh2001/tyh-theme-vscode"
   },
+  "keywords": [
+    "tyh",
+    "theme",
+    "themes",
+    "tyh2001",
+    "dark",
+    "light",
+    "vscode",
+    "code",
+    "Visual Studio Code",
+    "Dark Theme",
+    "Light Theme"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "tyh-theme",
+        "label": "tyh-theme-dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/tyh-theme-color-theme.json"
+        "path": "./themes/dark-tyh-theme-color-theme.json"
+      },
+      {
+        "label": "tyh-theme-light",
+        "uiTheme": "vs",
+        "path": "./themes/light-tyh-theme-color-theme.json"
       }
     ]
   }
