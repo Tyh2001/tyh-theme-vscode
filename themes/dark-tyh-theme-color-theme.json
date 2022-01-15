@@ -1,5 +1,5 @@
 {
-  "name": "tyh-theme",
+  "name": "tyh-theme-dark",
   "type": "dark",
   "colors": {
     "tab.inactiveBackground": "#393939", // 未选中的选项卡
