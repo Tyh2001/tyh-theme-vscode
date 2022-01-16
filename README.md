@@ -14,11 +14,13 @@ For developers, having a comfortable theme and code color may make you feel very
 
 # Dark-theme
 
-<img width="100%" src="./images/tyh-theme-dark.png">
+<img width="100%" src="./images/tyh-theme-dark-html.png">
+<img width="100%" src="./images/tyh-theme-dark-js.png">
 
 # Light-theme
 
-<img width="100%" src="./images/tyh-theme-light.png">
+<img width="100%" src="./images/tyh-theme-light-html.png">
+<img width="100%" src="./images/tyh-theme-light-js.png">
 
 # Installation
 
@@ -27,7 +29,7 @@ For developers, having a comfortable theme and code color may make you feel very
 3. Choose **Extensions** from menu
 4. Search for **tyh-theme**
 5. Click **Install** to install it
-6. From the menu bar click: File > Preferences > Color Theme > **tyh-theme**
+6. From the menu bar click: File > Preferences > Color Theme > **tyh-theme-dark / tyh-theme-light**
 
 # About
 

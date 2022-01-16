@@ -14,11 +14,13 @@ tyh-theme 是由 <a href="https://github.com/Tyh2001">tyh2001</a> 独立开发�
 
 # 黑暗主题
 
-<img width="100%" src="./images/tyh-theme-dark.png">
+<img width="100%" src="./images/tyh-theme-dark-html.png">
+<img width="100%" src="./images/tyh-theme-dark-js.png">
 
 # 明亮主题
 
-<img width="100%" src="./images/tyh-theme-light.png">
+<img width="100%" src="./images/tyh-theme-light-html.png">
+<img width="100%" src="./images/tyh-theme-light-js.png">
 
 # 安装
 
@@ -27,7 +29,7 @@ tyh-theme 是由 <a href="https://github.com/Tyh2001">tyh2001</a> 独立开发�
 3. 从菜单中选择**扩展**
 4. 搜索 **tyh-theme**
 5. 单击**安装**进行安装
-6. 从菜单栏中单击：文件 > 首选项 > 颜色主题 > **tyh 主题**
+6. 从菜单栏中单击：文件 > 首选项 > 颜色主题 > **tyh-theme-dark / tyh-theme-light**
 
 # 关于
 
