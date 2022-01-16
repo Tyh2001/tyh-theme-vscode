@@ -14,10 +14,14 @@ For developers, having a comfortable theme and code color may make you feel very
 
 # Dark-theme
 
+This is the black theme I'm using. I personally prefer dark colors
+
 <img width="100%" src="./images/tyh-theme-dark-html.png">
 <img width="100%" src="./images/tyh-theme-dark-js.png">
 
 # Light-theme
+
+Because overlooking the green scenery can relax and rest your eyes, I design the light color theme sidebar as green, hoping to make you relax when writing code
 
 <img width="100%" src="./images/tyh-theme-light-html.png">
 <img width="100%" src="./images/tyh-theme-light-js.png">
