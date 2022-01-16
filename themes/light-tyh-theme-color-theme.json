@@ -85,14 +85,14 @@
       "name": "HTML 标签名",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#0063dd"
+        "foreground": "#025fd1"
       }
     },
     {
       "name": "HTML 标签属性名",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#05d18d"
+        "foreground": "#00c281"
       }
     },
     // js部分
@@ -100,7 +100,7 @@
       "name": "JavaScript 和 HTML 字符串",
       "scope": "string",
       "settings": {
-        "foreground": "#d49204"
+        "foreground": "#c58701"
       }
     },
     {
@@ -146,7 +146,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#adb5b6"
+        "foreground": "#1bc754"
       }
     },
     {
@@ -293,7 +293,7 @@
       "name": "Markdown 链接 - []",
       "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
-        "foreground": "#4d79da"
+        "foreground": "#1756df"
       }
     },
     {
@@ -301,7 +301,7 @@
       "scope": "markup.quote.markdown",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c68fce"
+        "foreground": "#e174f1"
       }
     },
     {
@@ -309,14 +309,14 @@
       "scope": "markup.bold.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#b551f0"
+        "foreground": "#9b0bee"
       }
     },
     {
       "name": "Markdown 地址 - ()",
       "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
       "settings": {
-        "foreground": "#b0f1db"
+        "foreground": "#0cd894"
       }
     },
     {
@@ -327,7 +327,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#06e919"
+        "foreground": "#018d0c"
       }
     },
   ],
