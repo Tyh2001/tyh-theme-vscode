@@ -14,15 +14,11 @@ tyh-theme 是由 <a href="https://github.com/Tyh2001">tyh2001</a> 独立开发�
 
 # 黑暗主题
 
-<img width="100%" src="./images/tyh-theme-dark-html.png">
-<img width="100%" src="./images/tyh-theme-dark-css.png">
-<img width="100%" src="./images/tyh-theme-dark-js.png">
+<img width="100%" src="./images/tyh-theme-dark.png">
 
 # 明亮主题
 
-<img width="100%" src="./images/tyh-theme-light-html.png">
-<img width="100%" src="./images/tyh-theme-light-css.png">
-<img width="100%" src="./images/tyh-theme-light-js.png">
+<img width="100%" src="./images/tyh-theme-light.png">
 
 # 安装
 

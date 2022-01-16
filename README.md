@@ -14,15 +14,11 @@ For developers, having a comfortable theme and code color may make you feel very
 
 # Dark-theme
 
-<img width="100%" src="./images/tyh-theme-dark-html.png">
-<img width="100%" src="./images/tyh-theme-dark-css.png">
-<img width="100%" src="./images/tyh-theme-dark-js.png">
+<img width="100%" src="./images/tyh-theme-dark.png">
 
 # Light-theme
 
-<img width="100%" src="./images/tyh-theme-light-html.png">
-<img width="100%" src="./images/tyh-theme-light-css.png">
-<img width="100%" src="./images/tyh-theme-light-js.png">
+<img width="100%" src="./images/tyh-theme-light.png">
 
 # Installation
 
