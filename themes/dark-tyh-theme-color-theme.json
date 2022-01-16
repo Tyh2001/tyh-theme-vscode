@@ -109,7 +109,6 @@
     //   }
     // },
     // HTML部分
-    // 标签的尖括号
     {
       "name": "HTML 标签的尖括号",
       "scope": "meta.tag, punctuation.definition.tag",
@@ -139,13 +138,6 @@
       "scope": "string",
       "settings": {
         "foreground": "#efb946"
-      }
-    },
-    {
-      "name": "JavaScript 和 HTML 标点符号",
-      "scope": "punctuation",
-      "settings": {
-        "foreground": "#ffffff"
       }
     },
     {
@@ -285,6 +277,12 @@
         "foreground": "#0eecec"
       }
     },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#d2a8ff"
+      }
+    },
     // JSON
     {
       "name": "JSON 一级的属性名",
@@ -381,18 +379,14 @@
       }
     },
     {
-      "name": "Markup 标题",
-      "scope": "markup.heading",
+      "name": "Markdown 标题 - #",
+      "scope": [
+        "markup.heading",
+        "markup.heading entity.name"
+      ],
       "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "Markup 标题符号 #",
-      "scope": "markup.heading.setext",
-      "settings": {
-        "foreground": "#A6E22E",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#06e919"
       }
     },
   ]

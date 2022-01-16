@@ -104,13 +104,6 @@
       }
     },
     {
-      "name": "JavaScript 和 HTML 标点符号",
-      "scope": "punctuation",
-      "settings": {
-        "foreground": "#333333"
-      }
-    },
-    {
       "name": "JavaScript 布尔值",
       "scope": "constant.language.boolean",
       "settings": {
@@ -327,18 +320,14 @@
       }
     },
     {
-      "name": "Markup 标题",
-      "scope": "markup.heading",
+      "name": "Markdown 标题 - #",
+      "scope": [
+        "markup.heading",
+        "markup.heading entity.name"
+      ],
       "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "Markup 标题符号 #",
-      "scope": "markup.heading.setext",
-      "settings": {
-        "foreground": "#A6E22E",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#06e919"
       }
     },
   ],
