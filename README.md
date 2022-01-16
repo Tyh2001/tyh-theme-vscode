@@ -6,19 +6,19 @@
    English | <a href="https://github.com/Tyh2001/tyh-theme-vscode/blob/master/README_zh.md">Chinese</a>
 </p>
 
-# tyh-theme
+# Tyh-theme
 
 tyh-theme is a comfortable vscode theme plug-in independently developed by <a href="https://github.com/Tyh2001">tyh2001</a>, with built-in dark and light themes.
 
 For developers, having a comfortable theme and code color may make you feel very comfortable, and solving bugs won't seem so upset. I hope the theme of tyh theme can let you write better code.
 
-# dark-theme
+# Dark-theme
 
 <img width="100%" src="./images/tyh-theme-dark-html.png">
 <img width="100%" src="./images/tyh-theme-dark-css.png">
 <img width="100%" src="./images/tyh-theme-dark-js.png">
 
-# light-theme
+# Light-theme
 
 <img width="100%" src="./images/tyh-theme-light-html.png">
 <img width="100%" src="./images/tyh-theme-light-css.png">
