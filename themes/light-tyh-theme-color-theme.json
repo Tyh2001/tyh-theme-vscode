@@ -3,7 +3,6 @@
   "type": "light",
   "colors": {
     "editor.background": "#ffffff", // 编辑器背景色
-    // 左侧活动栏
     "activityBar.background": "#2ba245", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
     "activityBar.foreground": "#f1f1f1",
     "activityBarBadge.background": "#f1f1f1",
@@ -11,6 +10,7 @@
     "tab.activeBackground": "#ffffff", // 选中的背景色
     "tab.inactiveBackground": "#eeeeee", // 未选中的选项卡
     "tab.activeForeground": "#2c2c2c", // 关闭按钮颜色
+    "tab.activeBorder": "#59cc08", //活动选项卡底部的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
     "tab.unfocusedHoverBackground": "#ffffff", // 鼠标移入后的背景色
     "statusBar.noFolderBackground": "#6690fa",
     "statusBar.debuggingBackground": "#6690fa",
@@ -19,6 +19,10 @@
     "button.background": "#6690fa",
     "badge.background": "#6690faAA",
     "progressBar.background": "#6690fa",
+    "editor.lineHighlightBackground": "#edfae1",
+    "editor.findMatchHighlightBackground": "#afe6f4",
+    "list.highlightForeground": "#afe6f4",
+    "editorLineNumber.activeForeground": "#ef475d",
     // 
     "focusBorder": "#A6B39B",
     "pickerGroup.foreground": "#A6B39B",
@@ -28,12 +32,8 @@
     "list.hoverBackground": "#e0e0e0",
     "list.activeSelectionBackground": "#c4d9b1",
     "list.inactiveSelectionBackground": "#d3dbcd",
-    "list.highlightForeground": "#9769dc",
     "selection.background": "#C9D0D9",
-    // "editor.background": "#F5F5F5",
     "editorWhitespace.foreground": "#AAAAAA",
-    "editor.lineHighlightBackground": "#E4F6D4",
-    "editorLineNumber.activeForeground": "#9769dc",
     "editor.selectionBackground": "#C9D0D9",
     "minimap.selectionHighlight": "#C9D0D9",
     "panel.background": "#F5F5F5",
@@ -44,7 +44,6 @@
     "inputOption.activeBorder": "#adafb7",
     "dropdown.background": "#F5F5F5",
     "editor.findMatchBackground": "#BF9CAC",
-    "editor.findMatchHighlightBackground": "#edc9d8",
     "peekViewEditor.matchHighlightBackground": "#C2DFE3",
     "peekViewTitle.background": "#F2F8FC",
     "peekViewEditor.background": "#F2F8FC",
