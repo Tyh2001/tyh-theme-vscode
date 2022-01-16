@@ -8,7 +8,7 @@
 
 # tyh-theme
 
-tyh-theme is a comfortable vscode theme plug-in independently developed by tyh2001, with built-in dark and light themes.
+tyh-theme is a comfortable vscode theme plug-in independently developed by <a href="https://github.com/Tyh2001">tyh2001</a>, with built-in dark and light themes.
 
 For developers, having a comfortable theme and code color may make you feel very comfortable, and solving bugs won't seem so upset. I hope the theme of tyh theme can let you write better code.
 
