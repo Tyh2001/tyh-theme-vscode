@@ -3,7 +3,10 @@
   "type": "light",
   "colors": {
     "editor.background": "#ffffff", // 编辑器背景色
-    "activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    // 左侧活动栏
+    "activityBar.background": "#83f59c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "activityBar.foreground": "#3a6ff4",
+    "activityBarBadge.background": "#1c55e7",
     "titleBar.activeBackground": "#ffffff",
     "tab.activeBackground": "#ffffff", // 选中的背景色
     "tab.inactiveBackground": "#eeeeee", // 未选中的选项卡
@@ -11,6 +14,13 @@
     "tab.unfocusedHoverBackground": "#ffffff", // 鼠标移入后的背景色
     // 
     // 
+    "statusBar.noFolderBackground": "#705697",
+    "statusBar.debuggingBackground": "#705697",
+    "peekView.border": "#705697",
+    "statusBar.background": "#2ba245",
+    "button.background": "#705697",
+    "badge.background": "#705697AA",
+    "progressBar.background": "#705697",
     // 
     "focusBorder": "#A6B39B",
     "pickerGroup.foreground": "#A6B39B",
@@ -41,19 +51,12 @@
     "peekViewTitle.background": "#F2F8FC",
     "peekViewEditor.background": "#F2F8FC",
     "peekViewResult.background": "#F2F8FC",
-    "peekView.border": "#705697",
     "peekViewResult.matchHighlightBackground": "#93C6D6",
     "tab.lastPinnedBorder": "#c9d0d9",
-    "statusBar.background": "#705697",
     "welcomePage.tileBackground": "#f0f0f7",
-    "statusBar.noFolderBackground": "#705697",
-    "statusBar.debuggingBackground": "#705697",
     "statusBarItem.remoteBackground": "#4e3c69",
     "ports.iconRunningProcessForeground": "#749351",
     // 下面两个是侧边栏的颜色和hover配置
-    // "activityBar.foreground": "#705697",
-    // "activityBarBadge.background": "#705697",
-    "button.background": "#705697",
     "editorGroup.dropBackground": "#C9D0D988",
     "inputValidation.infoBorder": "#4ec1e5",
     "inputValidation.infoBackground": "#f2fcff",
@@ -62,8 +65,6 @@
     "inputValidation.errorBackground": "#ffeaea",
     "inputValidation.errorBorder": "#f1897f",
     "errorForeground": "#f1897f",
-    "badge.background": "#705697AA",
-    "progressBar.background": "#705697",
     "walkThrough.embeddedEditorBackground": "#00000014",
     "editorIndentGuide.background": "#aaaaaa60",
     "editorIndentGuide.activeBackground": "#777777b0"
