@@ -18,7 +18,6 @@
     "panelTitle.inactiveForeground": "#ababab", // 非活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
     "menu.background": "#202020", // 点击右下角设置按钮菜单项的背景颜色
     "menu.foreground": "#eaeff3", // 点击右下角设置按钮菜单项的前景颜色
-    "sideBarTitle.foreground": "#add5fe", // 侧边栏标题前景色。侧边栏是资源管理器和搜索等视图的容器
     "button.background": "#2186ee", // 按钮背景色 设置界面有按钮
     "editorCursor.foreground": "#e0f7f4", // 编辑器光标颜色
     "activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
@@ -27,22 +26,19 @@
     "editorLineNumber.foreground": "#f6f6f0", // 编辑器行号的颜色。
     "editorIndentGuide.background": "#464741", // 编辑器缩进参考线的颜色。
     "editorGroup.border": "#c3c3c3",
-    // "editorGroup.border": "#2186ee", // 将多个编辑器组彼此分隔开的颜色。编辑器组是编辑器的容器。
-    // "activityBarBadge.background": "#007acc", // 活动通知徽章背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
-    // "dropdown.listBackground": "#ee2121", // 下拉列表背景色。
+    "peekView.border": "#6690fa",
+    "statusBar.background": "#6690fa",
+    "activityBar.foreground": "#ffffff", // 活动栏项在活动时的前景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "activityBarBadge.background": "#2186ee", // 活动通知徽章背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "editorHoverWidget.background": "#2c2c2c", // 编辑器悬停提示的背景颜色
     // 
-    // 
-    // 
-    // -------------------------------------分割线-------------------------------------
-    // 
-    // 
-    // 
+    "list.highlightForeground": "#f8f8f2", // 在列表或树中搜索时，其中匹配内容的高亮颜色
+    "dropdown.listBackground": "#ee2121", // 下拉列表背景色。
     "list.activeSelectionBackground": "#75715E", // 已选项在列表或树活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
     "quickInputList.focusBackground": "#414339", // 焦点项目的快速选择器背景色
     "list.inactiveSelectionBackground": "#414339", // 已选项在列表或树非活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
     "list.hoverBackground": "#3e3d32", // 使用鼠标移动项目时，列表或树的背景颜色。
     "list.dropBackground": "#414339", // 使用鼠标移动项目时，列表或树进行拖放的背景颜色。
-    "list.highlightForeground": "#f8f8f2", // 在列表或树中搜索时，其中匹配内容的高亮颜色
     "selection.background": "#878b9180", //工作台所选文本的背景颜色(例如输入字段或文本区域)。注意，本设置不适用于编辑器。
     "editor.selectionHighlightBackground": "#575b6180", // 具有与所选项相关内容的区域的颜色。颜色必须透明，以免隐藏下面的修饰效果。
     "editor.wordHighlightBackground": "#4a4a7680", // 读取访问期间符号的背景色，例如读取变量时。颜色必须透明，以免隐藏下面的修饰效果。
@@ -58,12 +54,10 @@
     "panel.border": "#414339", // 将面板与编辑器隔开的边框的颜色。面板显示在编辑区域下方，包含输出和集成终端等视图。
     "settings.focusedRowBackground": "#4143395A", // 聚焦时设置行的背景色。
     "titleBar.activeBackground": "#1e1f1c", // 窗口处于活动状态时的标题栏背景色。
-    "statusBar.background": "#414339", // 工作区或文件夹打开时状态栏的背景色。状态栏显示在窗口底部。
     "statusBar.noFolderBackground": "#414339", // 没有打开文件夹时状态栏的背景色。状态栏显示在窗口底部。
     "statusBar.debuggingBackground": "#75715E", // 调试程序时状态栏的背景色。状态栏显示在窗口底部
     "statusBarItem.remoteBackground": "#AC6218", // 状态栏上远程指示器的背景色。
     "ports.iconRunningProcessForeground": "#ccccc7", // 具有关联的正在运行的进程的端口图标颜色。
-    "activityBar.foreground": "#f8f8f2", // 活动栏项在活动时的前景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
     "sideBarSectionHeader.background": "#272822", // 侧边栏部分标题背景色。此侧边栏是资源管理器和搜索等视图的容器。侧边栏部分是在侧边栏中嵌套的视图。
     "pickerGroup.foreground": "#75715E", // 快速选取器分组标签的颜色。
     "input.background": "#414339", // 输入框背景色。
@@ -79,18 +73,15 @@
     "inputValidation.warningBorder": "#e2e22e", // 严重性为警告时输入验证的边框颜色。
     "inputValidation.infoBackground": "#546190", // 输入验证结果为信息级别时的背景色。
     "inputValidation.infoBorder": "#819aff", // 严重性为信息时输入验证的边框颜色。
-    "editorHoverWidget.background": "#414339", // 编辑器悬停提示的背景颜色
     "editorHoverWidget.border": "#75715E", // 光标悬停时编辑器的边框颜色。
     "editorSuggestWidget.background": "#272822", // 建议小组件的背景色。
     "editorSuggestWidget.border": "#75715E", // 建议小组件的边框颜色。
-    "peekView.border": "#75715E", // 速览视图边框和箭头颜色。
     "peekViewEditor.background": "#272822", // 速览视图编辑器背景色。
     "peekViewResult.background": "#1e1f1c", // 速览视图结果列表背景色。
     "peekViewTitle.background": "#1e1f1c", // 速览视图标题区域背景颜色。
     "peekViewResult.selectionBackground": "#414339", // 速览视图结果列表中所选条目的背景色。
     "peekViewResult.matchHighlightBackground": "#75715E", // 在速览视图结果列表中匹配突出显示颜色。
     "peekViewEditor.matchHighlightBackground": "#75715E", // 在速览视图编辑器中匹配突出显示颜色。
-    // 终端 配色
     "terminal.ansiBlack": "#333333", // 终端中的 ANSI 颜色“Black”。
     "terminal.ansiRed": "#d10f1b", // 终端中的 ANSI 颜色“Red”。
     "terminal.ansiGreen": "#54c600", // 终端中的 ANSI 颜色“Green”。
@@ -106,9 +97,9 @@
     "terminal.ansiBrightBlue": "#819aff", // 终端中的 ANSI 颜色“BrightBlue”。
     "terminal.ansiBrightMagenta": "#AE81FF", // 终端中的 ANSI 颜色“BrightMagenta”。
     "terminal.ansiBrightCyan": "#66D9EF", // 终端中的 ANSI 颜色“BrightCyan”。
-    "terminal.ansiBrightWhite": "#f8f8f2" // 终端中的 ANSI 颜色“BrightWhite”。
-    // "editor.selectionBackground": "#878b9180", // 编辑器所选内容的颜色。
-    // "minimap.selectionHighlight": "#878b9180", // 编辑器选区在迷你地图中对应的标记颜色。
+    "terminal.ansiBrightWhite": "#f8f8f2", // 终端中的 ANSI 颜色“BrightWhite”。
+    "editor.selectionBackground": "#878b9180", // 编辑器所选内容的颜色。
+    "minimap.selectionHighlight": "#878b9180", // 编辑器选区在迷你地图中对应的标记颜色。
   },
   "tokenColors": [
     // {
