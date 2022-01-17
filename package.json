@@ -3,9 +3,6 @@
   "displayName": "tyh-theme",
   "description": "Tyh theme is a visually comfortable vscode theme with built-in dark and light themes",
   "version": "0.7.0",
-  "engines": {
-    "vscode": "^1.63.0"
-  },
   "icon": "tyh-theme-logo.png",
   "categories": [
     "Themes"
