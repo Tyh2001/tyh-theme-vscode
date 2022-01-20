@@ -257,7 +257,7 @@
       "name": "CSS class 选择器",
       "scope": "entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#d131c9"
+        "foreground": "#61a9ff"
       }
     },
     {

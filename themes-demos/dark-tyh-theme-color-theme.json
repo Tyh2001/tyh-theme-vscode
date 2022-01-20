@@ -316,7 +316,7 @@
       "name": "CSS class 选择器",
       "scope": "entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#f602ea"
+        "foreground": "#61a9ff"
       }
     },
     {
