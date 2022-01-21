@@ -16,15 +16,13 @@ tyh-theme 是由 <a href="https://github.com/Tyh2001">tyh2001</a> 独立开发�
 
 这是我正在使用的黑色主题，我个人比较喜欢黑暗色调
 
-<img width="100%" src="./images/tyh-theme-dark-html.png">
-<img width="100%" src="./images/tyh-theme-dark-js.png">
+<img width="100%" src="./images/tyh-theme-dark.png">
 
 # 明亮主题
 
 因为远眺绿色景物，能够使眼睛得到放松与休息，所以我将浅色主题的侧边栏设计为绿色，希望能使你编写代码时候可以放松一些
 
-<img width="100%" src="./images/tyh-theme-light-html.png">
-<img width="100%" src="./images/tyh-theme-light-js.png">
+<img width="100%" src="./images/tyh-theme-light.png">
 
 # 安装
 
