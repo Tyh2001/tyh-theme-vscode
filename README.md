@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="260px" src="tyh-theme-logo.png">
+  <img height="260px" src="./tyh-theme-logo.png">
 </p>
 
 <p align="center">
