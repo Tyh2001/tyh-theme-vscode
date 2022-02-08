@@ -1,6 +1,7 @@
 {
   "name": "tyh-theme-dark",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "tab.inactiveBackground": "#393939", // 未选中的选项卡
     "tab.border": "#1e1f1c", // 用于将选项卡彼此分隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
@@ -138,6 +139,16 @@
       "scope": "string",
       "settings": {
         "foreground": "#efb946"
+      }
+    },
+    {
+      "name": "setTimeout 和 setInterval 关键字",
+      "scope": [
+        "support"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff0"
       }
     },
     {

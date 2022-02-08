@@ -1,5 +1,10 @@
 # 更新日志
 
+## :tada: 1.1.0 (2022-02-08)
+
+- 加入 semanticHighlighting 配置项，语法高亮受影响关键字：`setInterval`、`Math`、`函数参数`
+- 用户下载取消了 `demo` 文件夹
+
 ## :tada: 1.0.1 (2022-01-20)
 
 - 优化 css class 选择器配色
