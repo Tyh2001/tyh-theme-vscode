@@ -3,16 +3,16 @@
   "semanticHighlighting": true,
   "type": "light",
   "colors": {
-    "editor.background": "#ffffff", // 编辑器背景色
+    "editor.background": "#fafafa", // 编辑器背景色
     "activityBar.background": "#2ba245", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
     "activityBar.foreground": "#f1f1f1",
     "activityBarBadge.background": "#6690fa",
-    "titleBar.activeBackground": "#ffffff",
-    "tab.activeBackground": "#ffffff", // 选中的背景色
+    "titleBar.activeBackground": "#fafafa",
+    "tab.activeBackground": "#fafafa", // 选中的背景色
     "tab.inactiveBackground": "#eeeeee", // 未选中的选项卡
     "tab.activeForeground": "#2c2c2c", // 关闭按钮颜色
     "tab.activeBorder": "#59cc08", //活动选项卡底部的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
-    "tab.unfocusedHoverBackground": "#ffffff", // 鼠标移入后的背景色
+    "tab.unfocusedHoverBackground": "#fafafa", // 鼠标移入后的背景色
     "statusBar.noFolderBackground": "#6690fa",
     "statusBar.debuggingBackground": "#6690fa",
     "peekView.border": "#6690fa",
