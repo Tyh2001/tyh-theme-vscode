@@ -2,7 +2,7 @@
   "name": "tyh-theme",
   "displayName": "tyh-theme",
   "description": "Tyh theme is a visually comfortable vscode theme with built-in dark and light themes",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "engines": {
     "vscode": "^1.10.0"
   },
@@ -46,5 +46,8 @@
         "path": "./themes/light-tyh-theme-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.8.0"
   }
 }

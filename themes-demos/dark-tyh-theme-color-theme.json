@@ -34,7 +34,7 @@
     "editorHoverWidget.background": "#2c2c2c", // 编辑器悬停提示的背景颜色
     // 
     "list.highlightForeground": "#f8f8f2", // 在列表或树中搜索时，其中匹配内容的高亮颜色
-    "dropdown.listBackground": "#ee2121", // 下拉列表背景色。
+    "dropdown.listBackground": "#565656", // 下拉列表背景色。
     "list.activeSelectionBackground": "#75715E", // 已选项在列表或树活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
     "quickInputList.focusBackground": "#414339", // 焦点项目的快速选择器背景色
     "list.inactiveSelectionBackground": "#414339", // 已选项在列表或树非活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
